@@ -1,17 +1,16 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth scroll-pt-24">
+<html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <!-- Primary Meta Tags -->
     <title>Dr. Mohammed Imran | Paediatrician in Kollegal | Consultation Clinic</title>
     <meta name="title" content="Dr. Mohammed Imran | Paediatrician in Kollegal">
     <meta name="description" content="Expert paediatric and neonatal care by Dr. Mohammed Imran. Comprehensive healthcare for newborns, infants, children, and adolescents in Kollegal.">
     <meta name="keywords" content="Paediatrician in Kollegal, Best Child Specialist, Neonatal Care Kollegal, Dr. Mohammed Imran, Children's Doctor Chamarajanagar, Vaccination Clinic">
     <meta name="author" content="Dr. Mohammed Imran's Consultation Clinic">
+    <link rel="canonical" href="https://drmohammedimran.mediview.in/">
     
-    <!-- Open Graph / Facebook / WhatsApp -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://drmohammedimran.mediview.in/">
     <meta property="og:title" content="Dr. Mohammed Imran | Paediatrician in Kollegal">
@@ -23,59 +22,63 @@
     <meta property="og:image:height" content="630">
     <meta property="og:site_name" content="Dr. Mohammed Imran's Consultation Clinic">
 
-    <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://drmohammedimran.mediview.in/">
     <meta property="twitter:title" content="Dr. Mohammed Imran | Paediatrician in Kollegal">
     <meta property="twitter:description" content="Expert paediatric and neonatal care by Dr. Mohammed Imran. Comprehensive healthcare for newborns, infants, children, and adolescents.">
     <meta property="twitter:image" content="https://drmohammedimran.mediview.in/DR%20MOHAMMED%20IMRAN.jpg">
 
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "MedicalClinic",
+      "name": "Dr. Mohammed Imran's Consultation Clinic",
+      "description": "Premium paediatric and neonatal care clinic in Kollegal.",
+      "url": "https://drmohammedimran.mediview.in",
+      "telephone": "+918050481931",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Noor moholla, 8th cross, Kempanapalya Road, Near Krushi ilakhe",
+        "addressLocality": "Kollegal town",
+        "addressRegion": "Karnataka",
+        "addressCountry": "IN"
+      }
+    }
+    </script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Nunito:wght@400;600;700;800&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
-    
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <script src="https://cdn.tailwindcss.com"></script>
     
+    <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
             theme: {
                 extend: {
                     fontFamily: {
-                        sans: ['Inter', 'sans-serif'],
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
                         heading: ['Nunito', 'sans-serif'],
-                        accent: ['Poppins', 'sans-serif'],
                     },
                     colors: {
                         brand: {
-                            navy: '#1e293b',
-                            blue: '#0d9488',    /* Teal */
-                            cyan: '#f59e0b',    /* Amber */
-                            lavender: '#f43f5e', /* Rose */
-                            softblue: '#f0fdfa', /* Soft Teal bg */
-                            slate: '#475569',
-                            light: '#f8fafc',
-                            mint: '#d1fae5',
+                            primary: '#0d9488',   /* Teal */
+                            secondary: '#f59e0b', /* Amber */
+                            dark: '#1e293b',      /* Deep Navy */
+                            light: '#f0fdfa',     /* Soft Teal bg */
+                            accent: '#f43f5e',    /* Rose */
                         }
                     },
                     animation: {
-                        'blob': 'blob 7s infinite',
                         'float': 'float 6s ease-in-out infinite',
-                        'pulse-slow': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
-                        'fade-in-up': 'fadeInUp 0.6s ease-out forwards',
+                        'fade-in': 'fadeIn 0.8s ease-out forwards',
                     },
                     keyframes: {
-                        blob: {
-                            '0%': { transform: 'translate(0px, 0px) scale(1)' },
-                            '33%': { transform: 'translate(30px, -50px) scale(1.1)' },
-                            '66%': { transform: 'translate(-20px, 20px) scale(0.9)' },
-                            '100%': { transform: 'translate(0px, 0px) scale(1)' },
-                        },
                         float: {
                             '0%, 100%': { transform: 'translateY(0)' },
-                            '50%': { transform: 'translateY(-15px)' },
+                            '50%': { transform: 'translateY(-20px)' },
                         },
-                        fadeInUp: {
+                        fadeIn: {
                             '0%': { opacity: '0', transform: 'translateY(20px)' },
                             '100%': { opacity: '1', transform: 'translateY(0)' },
                         }
@@ -86,118 +89,119 @@
     </script>
 
     <style>
-        body { background-color: #f8fafc; overflow-x: hidden; -webkit-font-smoothing: antialiased; }
-        h1, h2, h3, h4, h5, h6, .font-heading { font-family: 'Nunito', sans-serif; letter-spacing: -0.01em; }
+        body { background-color: #f8fafc; color: #1e293b; }
         
-        .glass { background: rgba(255, 255, 255, 0.85); backdrop-filter: blur(16px); border: 1px solid rgba(255, 255, 255, 0.6); }
-        .glass-card { background: rgba(255, 255, 255, 0.7); backdrop-filter: blur(20px); border: 1px solid rgba(255, 255, 255, 0.8); box-shadow: 0 8px 32px 0 rgba(13, 148, 136, 0.05); }
+        /* Glassmorphism */
+        .glass { background: rgba(255, 255, 255, 0.85); backdrop-filter: blur(12px); border-bottom: 1px solid rgba(255, 255, 255, 0.3); transition: all 0.3s ease; }
+        .glass.scrolled { background: rgba(255, 255, 255, 0.98); box-shadow: 0 4px 20px rgba(0,0,0,0.05); }
+        .glass-card { background: rgba(255, 255, 255, 0.9); backdrop-filter: blur(16px); border: 1px solid rgba(255, 255, 255, 0.5); box-shadow: 0 10px 30px rgba(13, 148, 136, 0.05); }
         
-        .premium-card { background: #ffffff; border-radius: 24px; box-shadow: 0 10px 40px -10px rgba(13, 148, 136, 0.06); border: 1px solid rgba(226, 232, 240, 0.6); transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
-        .premium-card:hover { transform: translateY(-8px); box-shadow: 0 20px 40px -10px rgba(13, 148, 136, 0.12); border-color: rgba(13, 148, 136, 0.2); }
-
+        /* Gradients & Buttons */
         .gradient-text { background: linear-gradient(135deg, #0d9488, #0ea5e9); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
-        .gradient-text-warm { background: linear-gradient(135deg, #f59e0b, #f43f5e); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
-
-        .btn-primary { background: linear-gradient(135deg, #0d9488, #14b8a6); box-shadow: 0 10px 25px -5px rgba(13, 148, 136, 0.4); transition: all 0.3s ease; }
-        .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 15px 30px -5px rgba(13, 148, 136, 0.5); }
-
-        .reveal { opacity: 0; transform: translateY(30px); transition: all 0.8s cubic-bezier(0.5, 0, 0, 1); }
+        .btn-primary { background: linear-gradient(135deg, #0d9488, #14b8a6); color: white; transition: all 0.3s ease; box-shadow: 0 4px 15px rgba(13, 148, 136, 0.3); }
+        .btn-primary:hover { transform: translateY(-3px); box-shadow: 0 8px 25px rgba(13, 148, 136, 0.4); }
+        
+        /* Scroll Reveal */
+        .reveal { opacity: 0; transform: translateY(40px); transition: all 0.8s cubic-bezier(0.5, 0, 0, 1); }
         .reveal.active { opacity: 1; transform: translateY(0); }
 
-        .doctor-img-wrapper { position: relative; border-radius: 30px; }
-        .doctor-img-wrapper::after { content: ''; position: absolute; inset: 0; border-radius: 30px; box-shadow: inset 0 0 0 1px rgba(255,255,255,0.2); pointer-events: none; }
-        details > summary { list-style: none; } details > summary::-webkit-details-marker { display: none; }
+        /* Accordion */
+        details > summary { list-style: none; }
+        details > summary::-webkit-details-marker { display: none; }
+        
+        /* Hide scrollbar for category filters */
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
     </style>
 </head>
-<body class="text-brand-slate">
+<body class="antialiased selection:bg-brand-primary selection:text-white">
 
-    <!-- Navigation -->
-    <nav class="fixed w-full z-40 glass transition-all duration-300" id="navbar">
+    <nav id="navbar" class="fixed w-full z-50 transition-all duration-300 glass">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center h-20">
-                <a href="#" class="flex-shrink-0 flex items-center gap-3 group">
-                    <div class="w-10 h-10 rounded-full bg-gradient-to-br from-teal-400 to-teal-600 flex items-center justify-center text-white text-lg shadow-lg shadow-teal-500/40 transition-transform group-hover:scale-105">
+                <a href="#" class="flex items-center gap-3 group">
+                    <div class="w-10 h-10 rounded-full bg-gradient-to-br from-brand-primary to-teal-400 flex items-center justify-center text-white shadow-lg transition-transform group-hover:scale-105">
                         <i class="fa-solid fa-stethoscope"></i>
                     </div>
                     <div>
-                        <span class="font-heading font-bold text-xl text-brand-navy block leading-tight">Dr. Imran's Clinic</span>
-                        <span class="text-[10px] text-teal-600 uppercase tracking-wider font-bold">Consultation Clinic</span>
+                        <span class="font-heading font-bold text-xl text-brand-dark block leading-none">Dr. Imran's Clinic</span>
+                        <span class="text-[10px] uppercase tracking-widest text-brand-primary font-bold">Consultation Clinic</span>
                     </div>
                 </a>
                 
-                <div class="hidden lg:flex items-center space-x-6">
-                    <a href="#about" class="text-sm font-medium text-brand-slate hover:text-brand-blue transition-colors">About</a>
-                    <a href="#services" class="text-sm font-medium text-brand-slate hover:text-brand-blue transition-colors">Services</a>
-                    <a href="#research" class="text-sm font-medium text-brand-slate hover:text-brand-blue transition-colors">Research</a>
-                    <a href="#faq" class="text-sm font-medium text-brand-slate hover:text-brand-blue transition-colors">FAQ</a>
-                    <a href="#contact" class="text-sm font-medium text-brand-slate hover:text-brand-blue transition-colors">Contact</a>
-                    <a href="#" onclick="openBookingModal(event)" class="btn-primary px-6 py-2.5 rounded-full text-white font-medium text-sm hover:scale-105 transition-all">
-                        Book Appointment
-                    </a>
+                <div class="hidden md:flex space-x-8 items-center">
+                    <a href="#about" class="text-sm font-semibold hover:text-brand-primary transition-colors">About</a>
+                    <a href="#services" class="text-sm font-semibold hover:text-brand-primary transition-colors">Services</a>
+                    <a href="#testimonials" class="text-sm font-semibold hover:text-brand-primary transition-colors">Testimonials</a>
+                    <a href="#faq" class="text-sm font-semibold hover:text-brand-primary transition-colors">FAQ</a>
+                    <a href="#journals" class="text-sm font-semibold hover:text-brand-primary transition-colors">Research Library</a>
+                    <a href="#contact" class="text-sm font-semibold hover:text-brand-primary transition-colors">Contact</a>
+                    <button onclick="openModal()" class="btn-primary px-6 py-2.5 rounded-full font-bold text-sm">BOOK APPOINTMENT</button>
                 </div>
 
-                <div class="lg:hidden flex items-center">
-                    <button class="text-brand-navy p-2 focus:outline-none" id="mobile-menu-btn" aria-label="Toggle Menu">
-                        <i class="fa-solid fa-bars text-2xl"></i>
+                <div class="md:hidden flex items-center">
+                    <button onclick="document.getElementById('mobile-menu').classList.toggle('hidden')" class="text-brand-dark text-2xl focus:outline-none">
+                        <i class="fa-solid fa-bars"></i>
                     </button>
                 </div>
             </div>
         </div>
-        <!-- Mobile Menu -->
-        <div class="lg:hidden hidden bg-white border-t border-slate-100 absolute w-full shadow-xl" id="mobile-menu">
+        <div id="mobile-menu" class="hidden bg-white border-t border-slate-100 absolute w-full shadow-xl">
             <div class="px-4 py-4 space-y-2">
-                <a href="#about" class="block px-3 py-2 text-base font-medium text-brand-navy rounded-md hover:bg-slate-50">About</a>
-                <a href="#services" class="block px-3 py-2 text-base font-medium text-brand-navy rounded-md hover:bg-slate-50">Services</a>
-                <a href="#research" class="block px-3 py-2 text-base font-medium text-brand-navy rounded-md hover:bg-slate-50">Research</a>
-                <a href="#contact" class="block px-3 py-2 text-base font-medium text-brand-navy rounded-md hover:bg-slate-50">Contact</a>
-                <a href="#" onclick="openBookingModal(event); document.getElementById('mobile-menu').classList.add('hidden');" class="block w-full text-center mt-4 btn-primary px-6 py-3 rounded-xl text-white font-medium">Book Appointment</a>
+                <a href="#about" class="block px-4 py-3 font-semibold text-brand-dark hover:bg-brand-light rounded-lg transition-colors" onclick="this.parentElement.parentElement.classList.add('hidden')">About</a>
+                <a href="#services" class="block px-4 py-3 font-semibold text-brand-dark hover:bg-brand-light rounded-lg transition-colors" onclick="this.parentElement.parentElement.classList.add('hidden')">Services</a>
+                <a href="#testimonials" class="block px-4 py-3 font-semibold text-brand-dark hover:bg-brand-light rounded-lg transition-colors" onclick="this.parentElement.parentElement.classList.add('hidden')">Testimonials</a>
+                <a href="#faq" class="block px-4 py-3 font-semibold text-brand-dark hover:bg-brand-light rounded-lg transition-colors" onclick="this.parentElement.parentElement.classList.add('hidden')">FAQ</a>
+                <a href="#journals" class="block px-4 py-3 font-semibold text-brand-dark hover:bg-brand-light rounded-lg transition-colors" onclick="this.parentElement.parentElement.classList.add('hidden')">Research Library</a>
+                <a href="#contact" class="block px-4 py-3 font-semibold text-brand-dark hover:bg-brand-light rounded-lg transition-colors" onclick="this.parentElement.parentElement.classList.add('hidden')">Contact</a>
+                <button onclick="openModal(); document.getElementById('mobile-menu').classList.add('hidden');" class="block w-full text-center mt-4 btn-primary px-6 py-4 rounded-xl font-bold">BOOK APPOINTMENT</button>
             </div>
         </div>
     </nav>
 
-    <!-- Hero Section -->
-    <section class="relative pt-32 pb-20 lg:pt-40 lg:pb-28 overflow-hidden bg-brand-light">
-        <div class="absolute top-0 right-0 w-[600px] h-[600px] bg-teal-50 rounded-full mix-blend-multiply filter blur-[80px] opacity-60 animate-blob"></div>
-        <div class="absolute top-40 -left-20 w-[500px] h-[500px] bg-orange-50 rounded-full mix-blend-multiply filter blur-[80px] opacity-60 animate-blob animation-delay-2000"></div>
+    <section class="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden bg-brand-light">
+        <div class="absolute top-0 left-0 w-full h-full overflow-hidden z-0 pointer-events-none">
+            <div class="absolute -top-[20%] -right-[10%] w-[700px] h-[700px] rounded-full bg-brand-secondary/30 blur-[100px]"></div>
+            <div class="absolute top-[40%] -left-[10%] w-[500px] h-[500px] rounded-full bg-brand-primary/20 blur-[100px]"></div>
+        </div>
 
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-            <div class="grid lg:grid-cols-2 gap-12 lg:gap-8 items-center">
-                <div class="max-w-2xl reveal active">
-                    <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-teal-50 border border-teal-100 text-teal-700 text-sm font-bold mb-6 tracking-wide">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div class="animate-fade-in">
+                    <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/80 border border-brand-primary/20 text-brand-primary text-xs font-bold uppercase tracking-widest mb-6 backdrop-blur-sm shadow-sm">
                         <i class="fa-solid fa-child-reaching"></i> Specialist Paediatric Care
                     </div>
-                    <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold text-brand-navy leading-[1.15] mb-6">
+                    <h1 class="text-5xl lg:text-7xl font-bold font-heading text-brand-dark leading-tight mb-6">
                         Expert Care for Your Child's <span class="gradient-text">Health & Growth</span>
                     </h1>
-                    <p class="text-lg text-brand-slate mb-8 leading-relaxed font-light">
+                    <p class="text-lg text-slate-600 mb-8 max-w-lg leading-relaxed">
                         Compassionate, evidence-based paediatric and neonatal care by Dr. Mohammed Imran, dedicated to ensuring a healthy start and bright future for your little ones.
                     </p>
-                    
                     <div class="flex flex-col sm:flex-row gap-4 mb-10">
-                        <a href="#" onclick="openBookingModal(event)" class="btn-primary px-8 py-4 rounded-full text-white font-semibold text-center flex items-center justify-center gap-2">
-                            Book a Consultation <i class="fa-regular fa-calendar-check"></i>
+                        <button onclick="openModal()" class="btn-primary px-8 py-4 rounded-full font-bold tracking-wide flex items-center justify-center gap-2">
+                            BOOK CONSULTATION <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                        <a href="tel:+918050481931" class="px-8 py-4 rounded-full font-bold tracking-wide bg-white text-brand-dark border border-slate-200 hover:border-brand-primary hover:text-brand-primary transition-colors flex items-center justify-center gap-2 shadow-sm">
+                            CALL NOW
                         </a>
                     </div>
-
-                    <div class="flex flex-wrap gap-4 items-center text-sm font-medium text-slate-500">
-                        <div class="flex items-center gap-2"><div class="w-6 h-6 rounded-full bg-amber-100 flex items-center justify-center text-amber-600 text-xs"><i class="fa-solid fa-baby"></i></div> Neonatal Care</div>
-                        <div class="flex items-center gap-2"><div class="w-6 h-6 rounded-full bg-teal-100 flex items-center justify-center text-teal-600 text-xs"><i class="fa-solid fa-syringe"></i></div> Vaccinations</div>
-                        <div class="flex items-center gap-2"><div class="w-6 h-6 rounded-full bg-rose-100 flex items-center justify-center text-rose-500 text-xs"><i class="fa-solid fa-heart-pulse"></i></div> Emergency Support</div>
+                    
+                    <div class="flex flex-wrap items-center gap-6 text-sm font-semibold text-slate-500">
+                        <div class="flex items-center gap-2"><div class="w-6 h-6 rounded-full bg-brand-secondary/20 flex items-center justify-center"><i class="fa-solid fa-baby text-brand-secondary"></i></div> Neonatal Care</div>
+                        <div class="flex items-center gap-2"><div class="w-6 h-6 rounded-full bg-brand-primary/20 flex items-center justify-center"><i class="fa-solid fa-syringe text-brand-primary"></i></div> Vaccinations</div>
+                        <div class="flex items-center gap-2"><div class="w-6 h-6 rounded-full bg-brand-accent/20 flex items-center justify-center"><i class="fa-solid fa-heart-pulse text-brand-accent"></i></div> Emergency Support</div>
                     </div>
                 </div>
 
-                <div class="relative reveal active lg:ml-auto w-full max-w-md mx-auto lg:max-w-none">
-                    <div class="absolute inset-0 bg-gradient-to-tr from-teal-200/40 to-orange-200/40 rounded-[40px] transform rotate-3 scale-105"></div>
+                <div class="relative animate-fade-in lg:ml-auto w-full max-w-md mx-auto">
+                    <div class="absolute inset-0 bg-gradient-to-tr from-brand-primary/20 to-brand-secondary/20 rounded-[40px] transform rotate-3 scale-105"></div>
+                    <img src="DR MOHAMMED IMRAN.jpg" alt="Dr. Mohammed Imran - Paediatrician" class="relative z-10 w-full rounded-[30px] shadow-2xl object-cover h-[600px] border border-white/50">
                     
-                    <div class="doctor-img-wrapper bg-white p-2 shadow-2xl relative z-10 border border-white/50">
-                        <img src="DR MOHAMMED IMRAN.jpg" alt="Dr. Mohammed Imran - Paediatrician" class="w-full h-auto rounded-3xl object-cover" loading="eager">
-                        
-                        <div class="absolute -bottom-4 -left-4 sm:-bottom-6 sm:-left-6 glass-card px-5 py-3 rounded-2xl flex items-center gap-3 animate-float">
-                            <div class="w-10 h-10 rounded-full bg-teal-500 flex items-center justify-center text-white border-2 border-white"><i class="fa-solid fa-user-doctor"></i></div>
-                            <div>
-                                <p class="text-sm font-bold text-brand-navy">M.D Paediatrics</p>
-                                <p class="text-xs text-brand-slate">Expert Child Specialist</p>
-                            </div>
+                    <div class="absolute bottom-10 -left-6 sm:-left-10 glass-card p-4 rounded-2xl z-20 flex items-center gap-4 animate-float hidden md:flex">
+                        <div class="w-12 h-12 rounded-full bg-gradient-to-br from-brand-primary to-teal-500 flex items-center justify-center text-white text-xl shadow-inner"><i class="fa-solid fa-user-doctor"></i></div>
+                        <div>
+                            <p class="font-bold text-brand-dark text-lg leading-tight">M.D Paediatrics</p>
+                            <p class="text-xs text-slate-500 font-semibold uppercase tracking-wider">Expert Child Specialist</p>
                         </div>
                     </div>
                 </div>
@@ -205,418 +209,719 @@
         </div>
     </section>
 
-    <!-- About Section -->
-    <section id="about" class="py-20 bg-white reveal border-t border-slate-100">
+    <section class="py-12 relative z-20 -mt-8 reveal">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid lg:grid-cols-2 gap-16 items-center">
+            <div class="glass-card rounded-3xl p-6 md:p-8 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6 bg-white/95">
+                <div class="text-center group">
+                    <div class="w-12 h-12 mx-auto bg-brand-light rounded-full flex items-center justify-center text-brand-primary mb-3 group-hover:scale-110 transition-transform"><i class="fa-solid fa-user-doctor"></i></div>
+                    <h3 class="font-bold text-brand-dark text-sm">Expert Professional</h3>
+                </div>
+                <div class="text-center group">
+                    <div class="w-12 h-12 mx-auto bg-brand-light rounded-full flex items-center justify-center text-brand-primary mb-3 group-hover:scale-110 transition-transform"><i class="fa-solid fa-certificate"></i></div>
+                    <h3 class="font-bold text-brand-dark text-sm">Certified Clinic</h3>
+                </div>
+                <div class="text-center group">
+                    <div class="w-12 h-12 mx-auto bg-brand-light rounded-full flex items-center justify-center text-brand-primary mb-3 group-hover:scale-110 transition-transform"><i class="fa-solid fa-clock"></i></div>
+                    <h3 class="font-bold text-brand-dark text-sm">Quick Response</h3>
+                </div>
+                <div class="text-center group">
+                    <div class="w-12 h-12 mx-auto bg-brand-light rounded-full flex items-center justify-center text-brand-primary mb-3 group-hover:scale-110 transition-transform"><i class="fa-solid fa-laptop-medical"></i></div>
+                    <h3 class="font-bold text-brand-dark text-sm">Online Support</h3>
+                </div>
+                <div class="text-center group">
+                    <div class="w-12 h-12 mx-auto bg-brand-light rounded-full flex items-center justify-center text-brand-primary mb-3 group-hover:scale-110 transition-transform"><i class="fa-solid fa-lock"></i></div>
+                    <h3 class="font-bold text-brand-dark text-sm">Secure Process</h3>
+                </div>
+                <div class="text-center group">
+                    <div class="w-12 h-12 mx-auto bg-brand-light rounded-full flex items-center justify-center text-brand-primary mb-3 group-hover:scale-110 transition-transform"><i class="fa-solid fa-heart"></i></div>
+                    <h3 class="font-bold text-brand-dark text-sm">Patient Focused</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-20 bg-white reveal">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 gap-16 items-center">
                 <div class="order-2 lg:order-1 grid grid-cols-2 gap-4">
                     <div class="space-y-4">
-                        <div class="bg-teal-50 p-6 rounded-3xl border border-teal-100">
-                            <i class="fa-solid fa-graduation-cap text-3xl text-teal-600 mb-4 block"></i>
-                            <h4 class="font-bold text-brand-navy text-lg">M.D Paediatrics</h4>
-                            <p class="text-sm text-brand-slate mt-2">Karnataka Medical College and Research Institute, Hubli</p>
+                        <div class="bg-brand-light p-6 rounded-3xl border border-brand-primary/10 hover:border-brand-primary/30 transition-colors">
+                            <i class="fa-solid fa-graduation-cap text-3xl text-brand-primary mb-4 block"></i>
+                            <h4 class="font-bold text-brand-dark text-lg">M.D Paediatrics</h4>
+                            <p class="text-sm text-slate-500 mt-2">Karnataka Medical College and Research Institute, Hubli</p>
                         </div>
-                        <div class="bg-amber-50 p-6 rounded-3xl border border-amber-100">
-                            <i class="fa-solid fa-certificate text-3xl text-amber-500 mb-4 block"></i>
-                            <h4 class="font-bold text-brand-navy text-lg">MBBS</h4>
-                            <p class="text-sm text-brand-slate mt-2">Mysore Medical College & Research Institute</p>
+                        <div class="bg-amber-50 p-6 rounded-3xl border border-brand-secondary/10 hover:border-brand-secondary/30 transition-colors">
+                            <i class="fa-solid fa-certificate text-3xl text-brand-secondary mb-4 block"></i>
+                            <h4 class="font-bold text-brand-dark text-lg">MBBS</h4>
+                            <p class="text-sm text-slate-500 mt-2">Mysore Medical College and Research Institute</p>
                         </div>
                     </div>
                     <div class="space-y-4 mt-8">
-                        <div class="bg-rose-50 p-6 rounded-3xl border border-rose-100">
-                            <i class="fa-solid fa-hospital-user text-3xl text-rose-500 mb-4 block"></i>
-                            <h4 class="font-bold text-brand-navy text-lg">Medical Officer</h4>
-                            <p class="text-sm text-brand-slate mt-2">Dedicated service in Covid Emergency wards (MCC).</p>
+                        <div class="bg-rose-50 p-6 rounded-3xl border border-brand-accent/10 hover:border-brand-accent/30 transition-colors">
+                            <i class="fa-solid fa-hospital-user text-3xl text-brand-accent mb-4 block"></i>
+                            <h4 class="font-bold text-brand-dark text-lg">Medical Officer</h4>
+                            <p class="text-sm text-slate-500 mt-2">Dedicated service in Covid Emergency wards (MCC, 2020-2021).</p>
                         </div>
-                        <div class="bg-blue-50 p-6 rounded-3xl border border-blue-100">
-                            <i class="fa-solid fa-hands-holding-child text-3xl text-blue-500 mb-4 block"></i>
-                            <h4 class="font-bold text-brand-navy text-lg">Holistic Child Care</h4>
-                            <p class="text-sm text-brand-slate mt-2">Fostering a safe, comfortable, and friendly environment for your child's well-being.</p>
+                        <div class="bg-blue-50 p-6 rounded-3xl border border-blue-200/50 hover:border-blue-300 transition-colors">
+                            <i class="fa-solid fa-id-card-clip text-3xl text-blue-500 mb-4 block"></i>
+                            <h4 class="font-bold text-brand-dark text-lg">KMC Registration</h4>
+                            <p class="text-sm text-slate-500 mt-2">Reg No: 138509 (Karnataka Medical Council, Bengaluru).</p>
                         </div>
                     </div>
                 </div>
                 
                 <div class="order-1 lg:order-2">
-                    <div class="inline-block px-4 py-1.5 rounded-full bg-teal-100 text-teal-700 font-bold text-xs uppercase tracking-widest mb-4">Meet Your Doctor</div>
-                    <h2 class="text-3xl md:text-4xl font-bold text-brand-navy mb-6">Dr. Mohammed Imran</h2>
+                    <div class="inline-block px-4 py-1.5 rounded-full bg-brand-light text-brand-primary font-bold text-xs uppercase tracking-widest mb-4 border border-brand-primary/20">Meet Your Doctor</div>
+                    <h2 class="text-3xl md:text-4xl font-bold text-brand-dark mb-6">Dr. Mohammed Imran</h2>
                     
-                    <div class="space-y-4 text-brand-slate text-lg font-light leading-relaxed mb-8">
+                    <div class="space-y-4 text-slate-600 text-lg font-light leading-relaxed mb-8">
                         <p>Dr. Mohammed Imran is a highly qualified and compassionate Paediatrician dedicated to the comprehensive healthcare of newborns, infants, children, and adolescents.</p>
                         <p>With extensive experience ranging from rigorous Covid emergency ward duty to specialised neonatal care, Dr. Imran brings both deep clinical knowledge and a comforting approach to child healthcare.</p>
                     </div>
 
                     <ul class="space-y-4 mb-8">
-                        <li class="flex items-center gap-3">
-                            <div class="w-8 h-8 rounded-full bg-teal-100 flex items-center justify-center text-teal-600 shrink-0"><i class="fa-solid fa-language"></i></div>
-                            <span class="font-medium text-brand-navy">Consultations in Kannada, Hindi & English</span>
+                        <li class="flex items-center gap-3 bg-slate-50 p-3 rounded-xl border border-slate-100">
+                            <div class="w-10 h-10 rounded-full bg-brand-light flex items-center justify-center text-brand-primary shrink-0"><i class="fa-solid fa-language"></i></div>
+                            <span class="font-medium text-brand-dark">Consultations in Kannada, Hindi & English</span>
                         </li>
-                        <li class="flex items-center gap-3">
-                            <div class="w-8 h-8 rounded-full bg-amber-100 flex items-center justify-center text-amber-600 shrink-0"><i class="fa-solid fa-baby-carriage"></i></div>
-                            <span class="font-medium text-brand-navy">Specialised in Newborn & Preterm Care</span>
+                        <li class="flex items-center gap-3 bg-slate-50 p-3 rounded-xl border border-slate-100">
+                            <div class="w-10 h-10 rounded-full bg-amber-100 flex items-center justify-center text-brand-secondary shrink-0"><i class="fa-solid fa-baby-carriage"></i></div>
+                            <span class="font-medium text-brand-dark">Specialised in Newborn & Preterm Care</span>
+                        </li>
+                    </ul>
+                    <button onclick="openModal()" class="btn-primary px-8 py-3 rounded-full font-bold shadow-lg shadow-brand-primary/30">Book Consultation</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="py-24 bg-brand-light reveal border-y border-brand-primary/10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-brand-primary font-bold tracking-widest uppercase text-sm">What We Offer</span>
+                <h2 class="text-4xl font-bold font-heading text-brand-dark mt-2 mb-4">Comprehensive Paediatric Services</h2>
+                <p class="text-slate-600">From newborn care to adolescent health, providing end-to-end medical support for your child.</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white border border-slate-100 p-8 rounded-3xl shadow-sm hover:shadow-xl group hover:-translate-y-1 transition-all duration-300">
+                    <div class="w-14 h-14 rounded-2xl bg-brand-primary/10 flex items-center justify-center text-brand-primary text-2xl mb-6 group-hover:bg-brand-primary group-hover:text-white transition-colors">
+                        <i class="fa-solid fa-baby"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-brand-dark mb-3">Neonatal Care</h3>
+                    <p class="text-slate-500 text-sm mb-6 line-clamp-3">Expert care for newborns and preterm babies, ensuring healthy development.</p>
+                    <button onclick="openServiceModal('Neonatal Care', 'We provide specialized care for newborns, focusing on the critical first 28 days of life. Dr. Imran has extensive research background in preterm neonates, ensuring expert monitoring of vital signs, managing neonatal jaundice, feeding difficulties, and tracking essential early developmental milestones.', 'fa-baby')" class="text-brand-primary font-bold text-sm flex items-center gap-1 group-hover:gap-2 transition-all focus:outline-none">Learn More <i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+                <div class="bg-white border border-slate-100 p-8 rounded-3xl shadow-sm hover:shadow-xl group hover:-translate-y-1 transition-all duration-300">
+                    <div class="w-14 h-14 rounded-2xl bg-blue-100 flex items-center justify-center text-blue-500 text-2xl mb-6 group-hover:bg-blue-500 group-hover:text-white transition-colors">
+                        <i class="fa-solid fa-syringe"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-brand-dark mb-3">Vaccination</h3>
+                    <p class="text-slate-500 text-sm mb-6 line-clamp-3">Complete immunisation schedules to protect your child from preventable diseases.</p>
+                    <button onclick="openServiceModal('Vaccination', 'Stay on track with your child\'s health through our comprehensive, pain-managed immunisation programs. We follow national medical guidelines to administer vaccines safely, keeping detailed records to ensure your child is fully protected against preventable infectious diseases as they grow.', 'fa-syringe')" class="text-blue-500 font-bold text-sm flex items-center gap-1 group-hover:gap-2 transition-all focus:outline-none">Learn More <i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+                <div class="bg-white border border-slate-100 p-8 rounded-3xl shadow-sm hover:shadow-xl group hover:-translate-y-1 transition-all duration-300">
+                    <div class="w-14 h-14 rounded-2xl bg-amber-100 flex items-center justify-center text-brand-secondary text-2xl mb-6 group-hover:bg-brand-secondary group-hover:text-white transition-colors">
+                        <i class="fa-solid fa-chart-line"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-brand-dark mb-3">Growth & Nutrition</h3>
+                    <p class="text-slate-500 text-sm mb-6 line-clamp-3">Regular monitoring of height, weight, milestones, and nutritional guidance.</p>
+                    <button onclick="openServiceModal('Growth & Nutrition', 'Proper nutrition is the foundation of a healthy child. We offer regular assessments tracking height, weight, and head circumference percentiles. Dr. Imran provides expert dietary counselling, addressing nutritional deficiencies, weaning advice, and picky eating habits to ensure optimal physical and cognitive growth.', 'fa-chart-line')" class="text-brand-secondary font-bold text-sm flex items-center gap-1 group-hover:gap-2 transition-all focus:outline-none">Learn More <i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+                <div class="bg-white border border-slate-100 p-8 rounded-3xl shadow-sm hover:shadow-xl group hover:-translate-y-1 transition-all duration-300">
+                    <div class="w-14 h-14 rounded-2xl bg-rose-100 flex items-center justify-center text-brand-accent text-2xl mb-6 group-hover:bg-brand-accent group-hover:text-white transition-colors">
+                        <i class="fa-solid fa-temperature-arrow-up"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-brand-dark mb-3">Fever & Infections</h3>
+                    <p class="text-slate-500 text-sm mb-6 line-clamp-3">Accurate diagnosis and safe treatment for common childhood illnesses.</p>
+                    <button onclick="openServiceModal('Fever & Infections', 'Children frequently encounter viral and bacterial infections as their immune systems develop. We provide rapid, accurate diagnosis and safe, evidence-based treatments for common ailments such as high fevers, ear infections, strep throat, and gastrointestinal issues, ensuring a quick and comfortable recovery.', 'fa-temperature-arrow-up')" class="text-brand-accent font-bold text-sm flex items-center gap-1 group-hover:gap-2 transition-all focus:outline-none">Learn More <i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+                <div class="bg-white border border-slate-100 p-8 rounded-3xl shadow-sm hover:shadow-xl group hover:-translate-y-1 transition-all duration-300">
+                    <div class="w-14 h-14 rounded-2xl bg-indigo-100 flex items-center justify-center text-indigo-500 text-2xl mb-6 group-hover:bg-indigo-500 group-hover:text-white transition-colors">
+                        <i class="fa-solid fa-lungs"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-brand-dark mb-3">Childhood Asthma</h3>
+                    <p class="text-slate-500 text-sm mb-6 line-clamp-3">Management and treatment plans for paediatric asthma and respiratory issues.</p>
+                    <button onclick="openServiceModal('Childhood Asthma', 'Managing chronic respiratory conditions requires ongoing care. We specialize in diagnosing and managing childhood asthma, recurrent wheezing, and allergic rhinitis. Dr. Imran creates personalized asthma action plans, educating parents on trigger avoidance and proper inhaler techniques to keep your child breathing easy.', 'fa-lungs')" class="text-indigo-500 font-bold text-sm flex items-center gap-1 group-hover:gap-2 transition-all focus:outline-none">Learn More <i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+                <div class="bg-white border border-slate-100 p-8 rounded-3xl shadow-sm hover:shadow-xl group hover:-translate-y-1 transition-all duration-300">
+                    <div class="w-14 h-14 rounded-2xl bg-green-100 flex items-center justify-center text-green-600 text-2xl mb-6 group-hover:bg-green-600 group-hover:text-white transition-colors">
+                        <i class="fa-solid fa-head-side-medical"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-brand-dark mb-3">Developmental Tracking</h3>
+                    <p class="text-slate-500 text-sm mb-6 line-clamp-3">Evaluating motor, cognitive, and social milestones during routine check-ups.</p>
+                    <button onclick="openServiceModal('Developmental Tracking', 'Every child develops at their own pace, but early intervention is key if delays occur. We systematically evaluate gross motor, fine motor, speech, and social-emotional milestones during routine visits to ensure your child is thriving neurologically and psychologically.', 'fa-head-side-medical')" class="text-green-600 font-bold text-sm flex items-center gap-1 group-hover:gap-2 transition-all focus:outline-none">Learn More <i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-24 bg-brand-dark text-white relative overflow-hidden reveal">
+        <div class="absolute inset-0 opacity-10 bg-[url('https://images.pexels.com/photos/3952048/pexels-photo-3952048.jpeg?auto=compress&cs=tinysrgb&w=1920')] bg-cover bg-center mix-blend-overlay"></div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid lg:grid-cols-2 gap-16">
+                <div>
+                    <h2 class="text-3xl font-heading font-bold mb-8 text-brand-secondary">Premium & Specialised Care</h2>
+                    <ul class="space-y-6">
+                        <li class="flex gap-4 items-center bg-white/5 p-4 rounded-2xl border border-white/10 hover:bg-white/10 transition-colors">
+                            <div class="w-14 h-14 rounded-full bg-brand-primary flex items-center justify-center shrink-0 shadow-lg"><i class="fa-solid fa-video text-xl"></i></div>
+                            <div>
+                                <h4 class="font-bold text-lg">Online Tele-Paediatrics</h4>
+                                <p class="text-sm text-slate-300">Consult with Dr. Imran securely from the comfort of your home.</p>
+                            </div>
+                        </li>
+                        <li class="flex gap-4 items-center bg-white/5 p-4 rounded-2xl border border-white/10 hover:bg-white/10 transition-colors">
+                            <div class="w-14 h-14 rounded-full bg-brand-primary flex items-center justify-center shrink-0 shadow-lg"><i class="fa-solid fa-house-medical text-xl"></i></div>
+                            <div>
+                                <h4 class="font-bold text-lg">Emergency Support</h4>
+                                <p class="text-sm text-slate-300">Experience in acute care ensures prompt response during illnesses.</p>
+                            </div>
+                        </li>
+                        <li class="flex gap-4 items-center bg-white/5 p-4 rounded-2xl border border-white/10 hover:bg-white/10 transition-colors">
+                            <div class="w-14 h-14 rounded-full bg-brand-primary flex items-center justify-center shrink-0 shadow-lg"><i class="fa-solid fa-file-pdf text-xl"></i></div>
+                            <div>
+                                <h4 class="font-bold text-lg">Digital Prescriptions</h4>
+                                <p class="text-sm text-slate-300">Receive accurate PDF prescriptions directly via WhatsApp.</p>
+                            </div>
                         </li>
                     </ul>
                 </div>
+                <div>
+                    <h2 class="text-3xl font-heading font-bold mb-8 text-brand-secondary">Conditions We Treat</h2>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="bg-white/5 p-5 rounded-2xl border border-white/10 text-center hover:border-brand-primary transition-colors flex items-center justify-center min-h-[100px]">
+                            <h4 class="font-bold tracking-wide">Viral Fevers</h4>
+                        </div>
+                        <div class="bg-white/5 p-5 rounded-2xl border border-white/10 text-center hover:border-brand-primary transition-colors flex items-center justify-center min-h-[100px]">
+                            <h4 class="font-bold tracking-wide">Neonatal Jaundice</h4>
+                        </div>
+                        <div class="bg-white/5 p-5 rounded-2xl border border-white/10 text-center hover:border-brand-primary transition-colors flex items-center justify-center min-h-[100px]">
+                            <h4 class="font-bold tracking-wide">Asthma & Allergies</h4>
+                        </div>
+                        <div class="bg-white/5 p-5 rounded-2xl border border-white/10 text-center hover:border-brand-primary transition-colors flex items-center justify-center min-h-[100px]">
+                            <h4 class="font-bold tracking-wide">Nutritional Deficiencies</h4>
+                        </div>
+                        <div class="bg-white/5 p-5 rounded-2xl border border-white/10 text-center hover:border-brand-primary transition-colors flex items-center justify-center min-h-[100px]">
+                            <h4 class="font-bold tracking-wide">Growth Delays</h4>
+                        </div>
+                        <div class="bg-white/5 p-5 rounded-2xl border border-white/10 text-center hover:border-brand-primary transition-colors flex items-center justify-center min-h-[100px]">
+                            <h4 class="font-bold tracking-wide">Infant Colic</h4>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Services Section -->
-    <section id="services" class="py-24 bg-brand-light relative reveal">
+    <section id="testimonials" class="py-24 bg-white reveal">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center max-w-3xl mx-auto mb-16">
-                <h2 class="text-3xl md:text-4xl font-bold text-brand-navy mb-4">Comprehensive Paediatric Services</h2>
-                <p class="text-lg text-brand-slate font-light">From newborn care to adolescent health, providing end-to-end medical support for your child.</p>
+            <div class="text-center mb-16">
+                <span class="text-brand-primary font-bold tracking-widest uppercase text-sm">Patient Feedback</span>
+                <h2 class="text-4xl font-bold font-heading text-brand-dark mt-2 mb-4">Parent Success Stories</h2>
+                <p class="text-slate-500">Real results and feedback from the families we care for.</p>
             </div>
-
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-                <div class="premium-card p-6 group">
-                    <div class="w-12 h-12 rounded-xl bg-teal-50 text-teal-600 flex items-center justify-center text-xl mb-4 group-hover:scale-110 transition-transform"><i class="fa-solid fa-baby"></i></div>
-                    <h3 class="text-lg font-bold text-brand-navy mb-2">Neonatal Care</h3>
-                    <p class="text-brand-slate text-sm leading-relaxed">Expert care for newborns and preterm babies, ensuring healthy development.</p>
-                </div>
-                <div class="premium-card p-6 group">
-                    <div class="w-12 h-12 rounded-xl bg-blue-50 text-blue-500 flex items-center justify-center text-xl mb-4 group-hover:scale-110 transition-transform"><i class="fa-solid fa-syringe"></i></div>
-                    <h3 class="text-lg font-bold text-brand-navy mb-2">Vaccination</h3>
-                    <p class="text-brand-slate text-sm leading-relaxed">Complete immunisation schedules to protect your child from preventable diseases.</p>
-                </div>
-                <div class="premium-card p-6 group">
-                    <div class="w-12 h-12 rounded-xl bg-amber-50 text-amber-500 flex items-center justify-center text-xl mb-4 group-hover:scale-110 transition-transform"><i class="fa-solid fa-chart-line"></i></div>
-                    <h3 class="text-lg font-bold text-brand-navy mb-2">Growth & Nutrition</h3>
-                    <p class="text-brand-slate text-sm leading-relaxed">Regular monitoring of height, weight, milestones, and nutritional guidance.</p>
-                </div>
-                <div class="premium-card p-6 group">
-                    <div class="w-12 h-12 rounded-xl bg-rose-50 text-rose-500 flex items-center justify-center text-xl mb-4 group-hover:scale-110 transition-transform"><i class="fa-solid fa-temperature-arrow-up"></i></div>
-                    <h3 class="text-lg font-bold text-brand-navy mb-2">Fever & Infections</h3>
-                    <p class="text-brand-slate text-sm leading-relaxed">Accurate diagnosis and safe treatment for common childhood illnesses.</p>
-                </div>
-                <div class="premium-card p-6 group">
-                    <div class="w-12 h-12 rounded-xl bg-indigo-50 text-indigo-500 flex items-center justify-center text-xl mb-4 group-hover:scale-110 transition-transform"><i class="fa-solid fa-lungs"></i></div>
-                    <h3 class="text-lg font-bold text-brand-navy mb-2">Childhood Asthma</h3>
-                    <p class="text-brand-slate text-sm leading-relaxed">Management and treatment plans for paediatric asthma and respiratory issues.</p>
-                </div>
-                <div class="premium-card p-6 group">
-                    <div class="w-12 h-12 rounded-xl bg-green-50 text-green-500 flex items-center justify-center text-xl mb-4 group-hover:scale-110 transition-transform"><i class="fa-solid fa-apple-whole"></i></div>
-                    <h3 class="text-lg font-bold text-brand-navy mb-2">Dietary Counselling</h3>
-                    <p class="text-brand-slate text-sm leading-relaxed">Advice on feeding difficulties, weaning, and balanced diets for toddlers.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Research & Academic Section -->
-    <section id="research" class="py-24 bg-gradient-to-b from-white to-teal-50/30 relative reveal">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid lg:grid-cols-12 gap-12 items-start">
-                <div class="lg:col-span-5 lg:sticky lg:top-24">
-                    <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-indigo-100 text-indigo-700 text-xs font-bold uppercase tracking-widest mb-6">
-                        <i class="fa-solid fa-microscope"></i> Academic Excellence
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-brand-light p-8 rounded-3xl border border-brand-primary/10 relative">
+                    <i class="fa-solid fa-quote-left text-4xl text-brand-primary/20 absolute top-6 right-8"></i>
+                    <div class="flex text-amber-400 mb-6 text-sm"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                    <p class="text-slate-600 mb-6 italic leading-relaxed">"Dr. Imran was extremely attentive and caring when my son was sick. His experience truly shows. Highly recommend!"</p>
+                    <div class="font-bold text-brand-dark flex items-center gap-3">
+                        <div class="w-10 h-10 rounded-full bg-slate-200 flex items-center justify-center text-slate-500 text-sm">AM</div>
+                        - Ayesha M.
                     </div>
-                    <h2 class="text-3xl md:text-4xl font-bold text-brand-navy mb-6">Advancing Paediatric <span class="gradient-text">Research</span></h2>
-                    <p class="text-lg text-brand-slate font-light mb-6">
-                        Dr. Imran's commitment to child health goes beyond the clinic through active research and contributions to the medical community.
-                    </p>
-                    <p class="text-base text-brand-slate mb-8">
-                        By staying at the forefront of paediatric medicine and attending national and state conferences, Dr. Imran ensures your child receives the most up-to-date, evidence-based medical care available.
-                    </p>
                 </div>
-                
-                <div class="lg:col-span-7 grid gap-6">
-                    <div class="premium-card p-8 border-l-4 border-l-teal-500">
-                        <div class="flex items-start gap-4">
-                            <div class="w-12 h-12 rounded-full bg-teal-100 flex items-center justify-center text-teal-600 shrink-0 mt-1"><i class="fa-solid fa-book-medical"></i></div>
-                            <div>
-                                <h4 class="font-bold text-xl text-brand-navy mb-2">Research Publication</h4>
-                                <p class="text-brand-slate mb-3 font-medium">"Rubinstein-Taybi syndrome in a late preterm neonate: A case report highlighting clinical diagnosis"</p>
-                                <p class="text-sm text-slate-500 bg-slate-50 inline-block px-3 py-1 rounded-md">Published in Karnataka Paediatric Journal (DOI 10.25259/KPJ_50_2025)</p>
-                            </div>
-                        </div>
+                <div class="bg-brand-light p-8 rounded-3xl border border-brand-primary/10 relative">
+                    <i class="fa-solid fa-quote-left text-4xl text-brand-primary/20 absolute top-6 right-8"></i>
+                    <div class="flex text-amber-400 mb-6 text-sm"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                    <p class="text-slate-600 mb-6 italic leading-relaxed">"Very professional clinic in Kollegal. The WhatsApp booking process was seamless and saved us a lot of time."</p>
+                    <div class="font-bold text-brand-dark flex items-center gap-3">
+                        <div class="w-10 h-10 rounded-full bg-slate-200 flex items-center justify-center text-slate-500 text-sm">RG</div>
+                        - Rahul G.
                     </div>
-
-                    <div class="premium-card p-8 border-l-4 border-l-amber-500">
-                        <div class="flex items-start gap-4">
-                            <div class="w-12 h-12 rounded-full bg-amber-100 flex items-center justify-center text-amber-600 shrink-0 mt-1"><i class="fa-solid fa-brain"></i></div>
-                            <div>
-                                <h4 class="font-bold text-xl text-brand-navy mb-2">MD Dissertation</h4>
-                                <p class="text-brand-slate mb-2">"Middle cerebral artery hemodynamics assessed by transcranial Sonography in preterm neonates receiving kangaroo mother care"</p>
-                                <p class="text-sm text-slate-500">Highlighting his deep expertise in critical neonatal care and brain hemodynamics.</p>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="premium-card p-8 border-l-4 border-l-blue-500">
-                        <div class="flex items-start gap-4">
-                            <div class="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 shrink-0 mt-1"><i class="fa-solid fa-users-viewfinder"></i></div>
-                            <div>
-                                <h4 class="font-bold text-xl text-brand-navy mb-2">Continuous Learning</h4>
-                                <p class="text-brand-slate">Attended multiple specialised workshops and National/State Conferences related to Paediatrics and Neonatology.</p>
-                            </div>
-                        </div>
+                </div>
+                <div class="bg-brand-light p-8 rounded-3xl border border-brand-primary/10 relative">
+                    <i class="fa-solid fa-quote-left text-4xl text-brand-primary/20 absolute top-6 right-8"></i>
+                    <div class="flex text-amber-400 mb-6 text-sm"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                    <p class="text-slate-600 mb-6 italic leading-relaxed">"We consulted Dr. Imran for our newborn's jaundice. His deep knowledge and calm demeanor put us completely at ease."</p>
+                    <div class="font-bold text-brand-dark flex items-center gap-3">
+                        <div class="w-10 h-10 rounded-full bg-slate-200 flex items-center justify-center text-slate-500 text-sm">PK</div>
+                        - Priya K.
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- FAQ Section -->
-    <section id="faq" class="py-24 bg-white reveal">
+    <section id="faq" class="py-24 bg-brand-light reveal border-y border-brand-primary/10">
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center mb-12">
-                <h2 class="text-3xl font-bold text-brand-navy mb-4">Frequently Asked Questions</h2>
-                <p class="text-brand-slate font-light">Information about our paediatric services and clinic.</p>
+            <div class="text-center mb-16">
+                <span class="text-brand-primary font-bold tracking-widest uppercase text-sm">Common Queries</span>
+                <h2 class="text-4xl font-bold font-heading text-brand-dark mt-2 mb-4">Frequently Asked Questions</h2>
             </div>
             
             <div class="space-y-4">
-                <details class="premium-card p-6 cursor-pointer group">
-                    <summary class="font-bold text-lg text-brand-navy flex justify-between items-center outline-none">
+                <details class="bg-white p-6 rounded-2xl cursor-pointer group shadow-sm border border-slate-100 transition-all hover:border-brand-primary/30">
+                    <summary class="font-bold text-brand-dark flex justify-between items-center outline-none">
                         Do you treat newborns and premature babies?
-                        <i class="fa-solid fa-chevron-down text-teal-600 transition-transform group-open:rotate-180"></i>
+                        <i class="fa-solid fa-chevron-down text-brand-primary transition-transform group-open:rotate-180"></i>
                     </summary>
-                    <p class="text-brand-slate mt-4 leading-relaxed font-light">Yes. Dr. Imran has specialised experience and research background in neonatology, particularly concerning preterm neonates.</p>
+                    <p class="text-slate-600 mt-4 leading-relaxed border-t border-slate-100 pt-4">Yes. Dr. Imran has specialised experience and research background in neonatology, particularly concerning preterm neonates.</p>
                 </details>
-
-                <details class="premium-card p-6 cursor-pointer group">
-                    <summary class="font-bold text-lg text-brand-navy flex justify-between items-center outline-none">
+                <details class="bg-white p-6 rounded-2xl cursor-pointer group shadow-sm border border-slate-100 transition-all hover:border-brand-primary/30">
+                    <summary class="font-bold text-brand-dark flex justify-between items-center outline-none">
                         Do you provide vaccination services?
-                        <i class="fa-solid fa-chevron-down text-teal-600 transition-transform group-open:rotate-180"></i>
+                        <i class="fa-solid fa-chevron-down text-brand-primary transition-transform group-open:rotate-180"></i>
                     </summary>
-                    <p class="text-brand-slate mt-4 leading-relaxed font-light">Yes, we provide complete, up-to-date immunisation schedules for infants and children according to national medical guidelines.</p>
+                    <p class="text-slate-600 mt-4 leading-relaxed border-t border-slate-100 pt-4">Yes, we provide complete, up-to-date immunisation schedules for infants and children according to national medical guidelines.</p>
                 </details>
-
-                <details class="premium-card p-6 cursor-pointer group">
-                    <summary class="font-bold text-lg text-brand-navy flex justify-between items-center outline-none">
+                <details class="bg-white p-6 rounded-2xl cursor-pointer group shadow-sm border border-slate-100 transition-all hover:border-brand-primary/30">
+                    <summary class="font-bold text-brand-dark flex justify-between items-center outline-none">
                         What languages does the doctor speak?
-                        <i class="fa-solid fa-chevron-down text-teal-600 transition-transform group-open:rotate-180"></i>
+                        <i class="fa-solid fa-chevron-down text-brand-primary transition-transform group-open:rotate-180"></i>
                     </summary>
-                    <p class="text-brand-slate mt-4 leading-relaxed font-light">Dr. Imran is fluent in Kannada, Hindi, and English, ensuring clear communication with parents.</p>
+                    <p class="text-slate-600 mt-4 leading-relaxed border-t border-slate-100 pt-4">Dr. Imran is fluent in Kannada, Hindi, and English, ensuring clear communication with parents.</p>
+                </details>
+                <details class="bg-white p-6 rounded-2xl cursor-pointer group shadow-sm border border-slate-100 transition-all hover:border-brand-primary/30">
+                    <summary class="font-bold text-brand-dark flex justify-between items-center outline-none">
+                        What are the clinic timings?
+                        <i class="fa-solid fa-chevron-down text-brand-primary transition-transform group-open:rotate-180"></i>
+                    </summary>
+                    <p class="text-slate-600 mt-4 leading-relaxed border-t border-slate-100 pt-4">The clinic is open from Monday to Saturday. Please contact us via WhatsApp to confirm the exact hours for the day.</p>
                 </details>
             </div>
         </div>
     </section>
 
-    <!-- Contact & Location -->
-    <section id="contact" class="py-24 bg-brand-light relative reveal border-t border-slate-200">
+    <section id="journals" class="py-24 bg-white reveal">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid lg:grid-cols-2 gap-16 items-center">
+            <div class="text-center mb-12">
+                <span class="text-brand-primary font-bold tracking-widest uppercase text-sm">Medical Literature</span>
+                <h2 class="text-4xl font-bold font-heading text-brand-dark mt-2 mb-4">Research & Journals Library</h2>
+                <p class="text-slate-500 max-w-2xl mx-auto">Explore clinical studies, case reports, and medical journals published and curated by Dr. Imran. Use the tools below to sort and find specific topics.</p>
+            </div>
+            
+            <div class="mb-12">
+                <div class="max-w-2xl mx-auto relative mb-8">
+                    <div class="absolute inset-y-0 left-0 pl-5 flex items-center pointer-events-none text-brand-primary">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    <input type="text" id="journalSearch" placeholder="Search by topic, keyword, or journal title..." class="w-full pl-12 pr-4 py-4 rounded-full bg-white border-2 border-slate-100 focus:border-brand-primary focus:ring-4 focus:ring-brand-primary/10 outline-none transition-all shadow-sm text-brand-dark font-medium">
+                </div>
+                
+                <div class="flex overflow-x-auto no-scrollbar gap-3 justify-start md:justify-center pb-4" id="categoryFilters">
+                    </div>
+            </div>
+
+            <div id="journalGrid" class="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+                </div>
+            
+            <div id="noResults" class="hidden text-center py-12">
+                <div class="text-brand-primary text-5xl mb-4"><i class="fa-regular fa-folder-open"></i></div>
+                <h3 class="text-2xl font-bold text-brand-dark mb-2">No journals found</h3>
+                <p class="text-slate-500">Try adjusting your search query or selecting a different category.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-24 bg-brand-light reveal border-t border-brand-primary/10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-2 gap-16">
                 <div>
-                    <h2 class="text-3xl md:text-4xl font-bold text-brand-navy mb-4">Clinic Information</h2>
-                    <p class="text-lg text-brand-slate font-light mb-8">Reach out to us to schedule an appointment for your child.</p>
+                    <span class="text-brand-primary font-bold tracking-widest uppercase text-sm">Visit Us</span>
+                    <h2 class="text-4xl font-bold font-heading text-brand-dark mt-2 mb-8">Get In Touch</h2>
                     
-                    <div class="space-y-6 mb-10">
-                        <div class="flex gap-4 items-start">
-                            <div class="w-12 h-12 rounded-2xl bg-teal-50 flex items-center justify-center text-teal-600 text-xl shrink-0"><i class="fa-solid fa-location-dot"></i></div>
+                    <div class="space-y-8 mb-10">
+                        <div class="flex gap-5 items-start">
+                            <div class="w-14 h-14 rounded-2xl bg-white shadow-sm flex items-center justify-center text-brand-primary text-xl shrink-0 border border-brand-primary/10"><i class="fa-solid fa-location-dot"></i></div>
                             <div>
-                                <h4 class="font-bold text-brand-navy">Location</h4>
-                                <p class="text-brand-slate">Noor Moholla, 8th Cross, Kempanapalya Road, Near Krushi Ilakhe, Kollegal Town, Chamarajanagar District</p>
+                                <h4 class="font-bold text-brand-dark text-lg">Clinic Address</h4>
+                                <p class="text-slate-600 mt-1 leading-relaxed">Noor moholla, 8 th cross, Kempanapalya Road,<br>Near Krushi ilakhe, Kollegal town,<br>Chamarajanagar district</p>
                             </div>
                         </div>
-                        <div class="flex gap-4 items-start">
-                            <div class="w-12 h-12 rounded-2xl bg-blue-50 flex items-center justify-center text-blue-600 text-xl shrink-0"><i class="fa-solid fa-phone"></i></div>
+                        <div class="flex gap-5 items-start">
+                            <div class="w-14 h-14 rounded-2xl bg-white shadow-sm flex items-center justify-center text-blue-500 text-xl shrink-0 border border-blue-100"><i class="fa-solid fa-phone"></i></div>
                             <div>
-                                <h4 class="font-bold text-brand-navy">Phone</h4>
-                                <a href="tel:918050481931" class="text-brand-slate hover:text-teal-600 transition-colors">+91 80504 81931</a>
+                                <h4 class="font-bold text-brand-dark text-lg">Contact Numbers</h4>
+                                <a href="tel:+918050481931" class="text-slate-600 block mt-1 hover:text-brand-primary font-medium transition-colors">+91 80504 81931</a>
+                                <a href="https://wa.me/918050481931" class="text-slate-600 block hover:text-brand-primary font-medium transition-colors">WhatsApp: +91 80504 81931</a>
                             </div>
                         </div>
-                        <div class="flex gap-4 items-start">
-                            <div class="w-12 h-12 rounded-2xl bg-orange-50 flex items-center justify-center text-orange-500 text-xl shrink-0"><i class="fa-solid fa-envelope"></i></div>
+                        <div class="flex gap-5 items-start">
+                            <div class="w-14 h-14 rounded-2xl bg-white shadow-sm flex items-center justify-center text-brand-secondary text-xl shrink-0 border border-brand-secondary/20"><i class="fa-solid fa-envelope"></i></div>
                             <div>
-                                <h4 class="font-bold text-brand-navy">Email</h4>
-                                <a href="mailto:mdimrankgl@gmail.com" class="text-brand-slate hover:text-teal-600 transition-colors">mdimrankgl@gmail.com</a>
+                                <h4 class="font-bold text-brand-dark text-lg">Email</h4>
+                                <a href="mailto:mdimrankgl@gmail.com" class="text-slate-600 mt-1 block hover:text-brand-primary font-medium transition-colors">mdimrankgl@gmail.com</a>
                             </div>
                         </div>
                     </div>
 
-                    <h4 class="font-bold text-brand-navy mb-4">Connect With Us</h4>
+                    <h4 class="font-bold text-brand-dark mb-4">Connect With Us</h4>
                     <div class="flex gap-4">
-                        <a href="https://www.instagram.com/imrankgl?igsh=MTVsNmZkdXVhbHU1cA==" target="_blank" class="w-12 h-12 rounded-full bg-white border border-slate-200 flex items-center justify-center text-slate-600 hover:bg-pink-500 hover:text-white hover:border-pink-500 transition-all shadow-sm"><i class="fa-brands fa-instagram text-xl"></i></a>
-                        <a href="https://wa.me/918050481931" target="_blank" class="w-12 h-12 rounded-full bg-white border border-slate-200 flex items-center justify-center text-slate-600 hover:bg-green-500 hover:text-white hover:border-green-500 transition-all shadow-sm"><i class="fa-brands fa-whatsapp text-xl"></i></a>
+                        <a href="https://www.instagram.com/imrankgl?igsh=MTVsNmZkdXVhbHU1cA==" target="_blank" class="w-12 h-12 rounded-full bg-white flex items-center justify-center text-brand-primary hover:bg-brand-primary hover:text-white transition-all shadow-md"><i class="fa-brands fa-instagram text-xl"></i></a>
+                        <a href="https://wa.me/918050481931" target="_blank" class="w-12 h-12 rounded-full bg-white flex items-center justify-center text-brand-primary hover:bg-brand-primary hover:text-white transition-all shadow-md"><i class="fa-brands fa-whatsapp text-xl"></i></a>
                     </div>
                 </div>
 
-                <div class="premium-card p-8 text-center bg-white border-0 shadow-lg relative overflow-hidden">
-                     <div class="absolute inset-0 bg-teal-50 opacity-50"></div>
-                     <div class="relative z-10">
-                         <div class="w-32 h-32 mx-auto rounded-full overflow-hidden border-4 border-white shadow-lg mb-6">
+                <div class="bg-white p-8 rounded-[40px] shadow-xl border border-slate-100 text-center relative overflow-hidden flex flex-col justify-center h-full">
+                     <div class="absolute inset-0 bg-gradient-to-b from-brand-light to-white opacity-50 pointer-events-none"></div>
+                     <div class="relative z-10 flex flex-col items-center">
+                         <div class="w-40 h-40 rounded-full overflow-hidden border-4 border-white shadow-xl mb-6">
                              <img src="DR MOHAMMED IMRAN.jpg" alt="Dr. Mohammed Imran" class="w-full h-full object-cover object-top">
                          </div>
-                         <h3 class="text-2xl font-bold text-brand-navy mb-1">Dr. Mohammed Imran</h3>
-                         <p class="text-teal-600 text-sm mb-6 font-bold">M.D Paediatrics</p>
+                         <h3 class="text-2xl font-bold text-brand-dark mb-1 font-heading">Dr. Mohammed Imran</h3>
+                         <p class="text-brand-primary text-sm mb-8 font-bold tracking-widest uppercase">M.D Paediatrics</p>
                          
-                         <a href="#" onclick="openBookingModal(event)" class="btn-primary block w-full py-4 rounded-xl text-white font-bold mb-4 shadow-lg shadow-teal-600/20 hover:scale-[1.02] transition-all">
+                         <button onclick="openModal()" class="btn-primary w-full py-4 rounded-xl text-white font-bold shadow-lg hover:scale-[1.02] transition-transform text-lg mt-auto">
                              Book Appointment Request
-                         </a>
+                         </button>
                      </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="bg-brand-navy text-slate-300 pt-16 pb-8">
+    <section class="py-24 relative overflow-hidden reveal">
+        <div class="absolute inset-0 bg-brand-dark"></div>
+        <div class="absolute inset-0 bg-[url('https://images.pexels.com/photos/3952048/pexels-photo-3952048.jpeg?auto=compress&cs=tinysrgb&w=1920')] bg-cover bg-center opacity-10 mix-blend-overlay"></div>
+        <div class="absolute -top-40 -right-40 w-96 h-96 bg-brand-primary rounded-full blur-[120px] opacity-40"></div>
+        
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
+            <h2 class="text-4xl md:text-6xl font-bold font-heading text-white mb-6">Expert Care for Your Child</h2>
+            <p class="text-xl text-slate-300 mb-10 font-light max-w-2xl mx-auto">Book your comprehensive paediatric evaluation with Dr. Mohammed Imran today and ensure the best start for their future.</p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <button onclick="openModal()" class="bg-white text-brand-dark font-bold px-10 py-4 rounded-full shadow-[0_0_30px_rgba(255,255,255,0.2)] hover:scale-105 transition-transform flex items-center justify-center gap-2">
+                    Schedule Appointment
+                </button>
+                <a href="https://wa.me/918050481931" target="_blank" class="bg-[#25D366] text-white font-bold px-10 py-4 rounded-full hover:scale-105 transition-transform flex items-center justify-center gap-2 shadow-lg">
+                    <i class="fa-brands fa-whatsapp text-xl"></i> WhatsApp Us
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-brand-dark text-slate-300 pt-16 pb-8 relative z-20">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid md:grid-cols-3 gap-8 mb-12">
-                <div>
-                    <div class="flex items-center gap-3 mb-4">
-                        <div class="w-8 h-8 rounded-full bg-teal-500 flex items-center justify-center text-white">
-                            <i class="fa-solid fa-stethoscope text-sm"></i>
+            <div class="grid md:grid-cols-4 gap-8 mb-12">
+                <div class="md:col-span-2 pr-4">
+                    <div class="flex items-center gap-3 mb-6">
+                        <div class="w-10 h-10 rounded-full bg-gradient-to-br from-brand-primary to-teal-400 flex items-center justify-center text-white shadow-lg">
+                            <i class="fa-solid fa-stethoscope text-lg"></i>
                         </div>
-                        <span class="font-heading font-bold text-xl text-white tracking-wide">Dr. Imran's Clinic</span>
+                        <span class="font-heading font-bold text-2xl text-white">Dr. Imran's Clinic</span>
                     </div>
-                    <p class="text-sm leading-relaxed mb-4 font-light text-slate-400">Compassionate and expert paediatric healthcare in Kollegal, ensuring the best start for your child's future.</p>
+                    <p class="text-sm leading-relaxed mb-6 max-w-sm text-slate-400">Compassionate and expert paediatric healthcare in Kollegal, ensuring the best start for your child's future.</p>
+                    <div class="flex gap-4">
+                        <a href="https://www.instagram.com/imrankgl?igsh=MTVsNmZkdXVhbHU1cA==" target="_blank" class="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-white hover:bg-brand-primary hover:border-brand-primary transition-all"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
                 </div>
                 
                 <div>
-                    <h4 class="font-bold text-white mb-4">Dr. Mohammed Imran</h4>
-                    <p class="text-sm mb-2 text-slate-400">M.D Paediatrics | MBBS</p>
-                    <p class="text-sm font-light text-teal-400 font-semibold">Dedicated Child Specialist</p>
+                    <h4 class="font-bold text-white mb-6 uppercase tracking-wider text-sm">Quick Links</h4>
+                    <ul class="space-y-3">
+                        <li><a href="#about" class="text-sm text-slate-400 hover:text-brand-primary transition-colors">About Dr. Imran</a></li>
+                        <li><a href="#services" class="text-sm text-slate-400 hover:text-brand-primary transition-colors">Our Services</a></li>
+                        <li><a href="#testimonials" class="text-sm text-slate-400 hover:text-brand-primary transition-colors">Patient Reviews</a></li>
+                        <li><a href="#journals" class="text-sm text-slate-400 hover:text-brand-primary transition-colors">Research Library</a></li>
+                    </ul>
                 </div>
 
                 <div>
-                    <h4 class="font-bold text-white mb-4">Contact</h4>
-                    <a href="tel:918050481931" class="block text-sm hover:text-teal-400 mb-2 transition-colors"><i class="fa-solid fa-phone w-5 mr-2"></i> +91 80504 81931</a>
-                    <a href="mailto:mdimrankgl@gmail.com" class="block text-sm hover:text-teal-400 mb-4 transition-colors"><i class="fa-solid fa-envelope w-5 mr-2"></i> mdimrankgl@gmail.com</a>
-                    
-                    <div class="flex gap-3 mt-4">
-                        <a href="https://www.instagram.com/imrankgl?igsh=MTVsNmZkdXVhbHU1cA==" target="_blank" class="text-slate-500 hover:text-teal-400 transition-colors"><i class="fa-brands fa-instagram text-xl"></i></a>
-                    </div>
+                    <h4 class="font-bold text-white mb-6 uppercase tracking-wider text-sm">Contact Info</h4>
+                    <ul class="space-y-3">
+                        <li><a href="tel:+918050481931" class="text-sm text-slate-400 hover:text-brand-primary transition-colors flex items-center gap-2"><i class="fa-solid fa-phone w-4 text-center"></i> +91 80504 81931</a></li>
+                        <li><a href="mailto:mdimrankgl@gmail.com" class="text-sm text-slate-400 hover:text-brand-primary transition-colors flex items-center gap-2"><i class="fa-solid fa-envelope w-4 text-center"></i> mdimrankgl@gmail.com</a></li>
+                        <li class="text-sm text-brand-primary font-bold mt-4 pt-4 border-t border-white/10 inline-block">Reg: KMC 138509</li>
+                    </ul>
                 </div>
             </div>
             
-            <div class="text-center text-slate-500 text-sm pt-8 border-t border-slate-800 font-light flex flex-col items-center justify-center gap-3">
-                <p>&copy; <span id="year"></span> Dr. Mohammed Imran's Consultation Clinic. All rights reserved.</p>
+            <div class="text-center text-sm pt-8 border-t border-white/10 text-slate-500 flex flex-col items-center justify-center gap-2">
+                <p>© <span id="year"></span> Dr. Mohammed Imran's Consultation Clinic. All rights reserved.</p>
+                <p class="text-xs">Made by <a href="https://www.instagram.com/sna.pweb?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer" class="hover:text-brand-primary transition-colors font-bold text-white">Snapweb</a></p>
             </div>
         </div>
     </footer>
 
-    <!-- WhatsApp Floating -->
-    <a href="https://wa.me/918050481931" target="_blank" rel="noopener noreferrer" class="fixed bottom-6 right-6 w-14 h-14 bg-green-500 rounded-full flex items-center justify-center text-white text-3xl shadow-lg shadow-green-500/30 hover:scale-110 hover:shadow-green-500/50 transition-all z-40 animate-pulse-slow">
+    <a href="https://wa.me/918050481931" target="_blank" rel="noopener noreferrer" class="fixed bottom-6 right-6 w-14 h-14 bg-[#25D366] rounded-full flex items-center justify-center text-white text-3xl shadow-[0_4px_20px_rgba(37,211,102,0.5)] hover:scale-110 transition-transform z-40">
         <i class="fa-brands fa-whatsapp"></i>
     </a>
+    <a href="tel:+918050481931" class="fixed bottom-24 right-6 w-12 h-12 bg-brand-primary rounded-full flex items-center justify-center text-white text-xl shadow-[0_4px_15px_rgba(13,148,136,0.4)] hover:scale-110 transition-transform z-40 md:hidden">
+        <i class="fa-solid fa-phone"></i>
+    </a>
 
-    <!-- Booking Modal -->
-    <div id="booking-modal" class="fixed inset-0 z-[100] hidden items-center justify-center">
-        <div class="absolute inset-0 bg-brand-navy/70 backdrop-blur-md transition-opacity" onclick="closeBookingModal()"></div>
-        
-        <div class="relative bg-white w-full max-w-xl max-h-[90vh] overflow-y-auto rounded-3xl shadow-[0_20px_60px_-15px_rgba(0,0,0,0.4)] m-4 animate-fade-in-up border border-slate-100 flex flex-col">
-            
-            <button onclick="closeBookingModal()" class="absolute top-4 right-4 sm:top-6 sm:right-6 w-10 h-10 bg-slate-50 rounded-full flex items-center justify-center text-slate-500 hover:bg-red-50 hover:text-red-500 transition-colors z-10 shadow-sm border border-slate-200">
-                <i class="fa-solid fa-xmark text-xl"></i>
+    <div id="serviceModal" class="fixed inset-0 z-[110] hidden items-center justify-center">
+        <div class="absolute inset-0 bg-brand-dark/80 backdrop-blur-sm transition-opacity" onclick="closeServiceModal()"></div>
+        <div class="relative bg-white w-full max-w-2xl rounded-[30px] shadow-2xl m-4 p-8 animate-fade-in z-10 max-h-[90vh] overflow-y-auto border border-slate-100">
+            <button onclick="closeServiceModal()" class="absolute top-6 right-6 w-10 h-10 bg-brand-light rounded-full flex items-center justify-center text-brand-dark hover:bg-brand-primary hover:text-white transition-colors focus:outline-none shadow-sm">
+                <i class="fa-solid fa-xmark text-lg"></i>
+            </button>
+            <div id="srv-icon" class="w-16 h-16 rounded-2xl bg-brand-primary/10 flex items-center justify-center text-brand-primary text-3xl mb-6 shadow-sm border border-brand-primary/20"></div>
+            <h3 id="srv-title" class="text-3xl font-bold font-heading text-brand-dark mb-4"></h3>
+            <p id="srv-desc" class="text-slate-600 leading-relaxed mb-8 text-lg"></p>
+            <button onclick="closeServiceModal(); openModal();" class="btn-primary w-full py-4 rounded-xl font-bold shadow-lg hover:shadow-brand-primary/40 text-lg">Book This Service</button>
+        </div>
+    </div>
+
+    <div id="articleModal" class="fixed inset-0 z-[110] hidden items-center justify-center">
+        <div class="absolute inset-0 bg-brand-dark/80 backdrop-blur-sm transition-opacity" onclick="closeArticleModal()"></div>
+        <div class="relative bg-white w-full max-w-3xl rounded-[30px] shadow-2xl m-4 p-8 md:p-12 animate-fade-in z-10 max-h-[90vh] overflow-y-auto border border-slate-100">
+            <button onclick="closeArticleModal()" class="absolute top-6 right-6 w-10 h-10 bg-brand-light rounded-full flex items-center justify-center text-brand-dark hover:bg-brand-primary hover:text-white transition-colors focus:outline-none shadow-sm">
+                <i class="fa-solid fa-xmark text-lg"></i>
+            </button>
+            <span id="art-category" class="inline-block px-3 py-1 bg-brand-primary/10 text-xs font-bold text-brand-primary uppercase tracking-wider mb-4 rounded-full border border-brand-primary/20"></span>
+            <h3 id="art-title" class="text-2xl md:text-4xl font-bold font-heading text-brand-dark mb-4 leading-snug"></h3>
+            <div id="art-meta" class="text-sm text-slate-400 font-semibold mb-8 pb-6 border-b border-slate-100 flex items-center gap-4">
+                <span id="art-date" class="bg-slate-50 px-3 py-1 rounded-md text-brand-dark border border-slate-200"></span>
+                <span class="text-brand-primary flex items-center gap-1"><i class="fa-solid fa-book-medical"></i> Medical Literature</span>
+            </div>
+            <div id="art-content" class="text-slate-700 leading-relaxed space-y-4 text-lg"></div>
+        </div>
+    </div>
+
+    <div id="bookingModal" class="fixed inset-0 z-[100] hidden items-center justify-center">
+        <div class="absolute inset-0 bg-brand-dark/80 backdrop-blur-sm transition-opacity" onclick="closeModal()"></div>
+        <div class="relative bg-white w-full max-w-lg rounded-[30px] shadow-2xl m-4 p-8 animate-fade-in z-10 max-h-[90vh] overflow-y-auto border border-slate-100">
+            <button onclick="closeModal()" class="absolute top-6 right-6 w-10 h-10 bg-brand-light rounded-full flex items-center justify-center text-brand-dark hover:bg-brand-primary hover:text-white transition-colors shadow-sm focus:outline-none">
+                <i class="fa-solid fa-xmark text-lg"></i>
             </button>
             
-            <div class="p-6 sm:p-10 flex-1">
-                <div class="text-center mb-8 relative">
-                    <div class="w-16 h-16 mx-auto bg-teal-100 rounded-2xl flex items-center justify-center text-teal-600 text-2xl mb-4 shadow-lg transform rotate-3 border border-teal-200">
-                        <i class="fa-solid fa-calendar-check -rotate-3"></i>
-                    </div>
-                    <h3 class="text-2xl font-bold text-brand-navy mb-2 font-heading">Book Appointment Request</h3>
-                    <p class="text-brand-slate text-sm">Send a direct request to our clinic's WhatsApp.</p>
+            <div class="text-center mb-8">
+                <div class="w-16 h-16 mx-auto bg-brand-primary/10 rounded-2xl flex items-center justify-center text-brand-primary text-2xl mb-4 border border-brand-primary/20 shadow-sm transform rotate-3">
+                    <i class="fa-solid fa-calendar-check -rotate-3"></i>
                 </div>
-
-                <form onsubmit="sendWhatsAppRequest(event)" class="space-y-5 block">
-                    <div>
-                        <label class="block text-sm font-semibold text-brand-navy mb-1.5">Parent / Guardian Name</label>
-                        <input type="text" id="bk-parent" required class="w-full px-4 py-3 rounded-xl bg-slate-50 border border-slate-200 focus:border-teal-500 focus:bg-white outline-none transition-all text-brand-navy" placeholder="Enter parent's name">
-                    </div>
-                    
-                    <div class="grid grid-cols-2 gap-5">
-                        <div>
-                            <label class="block text-sm font-semibold text-brand-navy mb-1.5">Child's Name</label>
-                            <input type="text" id="bk-child" required class="w-full px-4 py-3 rounded-xl bg-slate-50 border border-slate-200 focus:border-teal-500 focus:bg-white outline-none transition-all text-brand-navy" placeholder="Enter child's name">
-                        </div>
-                        <div>
-                            <label class="block text-sm font-semibold text-brand-navy mb-1.5">Child's Age / Months</label>
-                            <input type="text" id="bk-age" required class="w-full px-4 py-3 rounded-xl bg-slate-50 border border-slate-200 focus:border-teal-500 focus:bg-white outline-none transition-all text-brand-navy" placeholder="e.g. 2 years">
-                        </div>
-                    </div>
-
-                    <div>
-                        <label class="block text-sm font-semibold text-brand-navy mb-1.5">Preferred Date</label>
-                        <input type="date" id="bk-date" required class="w-full px-4 py-3 rounded-xl bg-slate-50 border border-slate-200 focus:border-teal-500 focus:bg-white outline-none transition-all text-brand-navy">
-                    </div>
-
-                    <div>
-                        <label class="block text-sm font-semibold text-brand-navy mb-1.5">Symptoms / Reason for Visit</label>
-                        <textarea id="bk-symptoms" required rows="3" class="w-full px-4 py-3 rounded-xl bg-slate-50 border border-slate-200 focus:border-teal-500 focus:bg-white outline-none transition-all text-brand-navy" placeholder="Fever, vaccination, general checkup..."></textarea>
-                    </div>
-
-                    <button type="submit" class="w-full bg-[#25D366] mt-6 text-white font-bold py-4 rounded-xl shadow-lg shadow-green-500/30 transition-all hover:scale-[1.02] flex justify-center items-center gap-2 text-lg">
-                        <i class="fa-brands fa-whatsapp text-2xl"></i> Send Request via WhatsApp
-                    </button>
-                </form>
+                <h3 class="text-3xl font-bold font-heading text-brand-dark mb-2">Book Appointment</h3>
+                <p class="text-sm text-slate-500">Fill out the form below to send a direct request to our clinic's WhatsApp.</p>
             </div>
+
+            <form onsubmit="handleBooking(event)" class="space-y-5">
+                <div>
+                    <label class="block text-xs font-bold text-brand-dark uppercase tracking-wider mb-1.5 ml-1">Parent / Guardian Name</label>
+                    <input type="text" id="bk-parent" required class="w-full px-4 py-3.5 rounded-xl bg-slate-50 border border-slate-200 focus:border-brand-primary focus:bg-white focus:ring-4 focus:ring-brand-primary/10 outline-none transition-all text-brand-dark font-medium placeholder:font-normal">
+                </div>
+                <div class="grid grid-cols-2 gap-5">
+                    <div>
+                        <label class="block text-xs font-bold text-brand-dark uppercase tracking-wider mb-1.5 ml-1">Child's Name</label>
+                        <input type="text" id="bk-child" required class="w-full px-4 py-3.5 rounded-xl bg-slate-50 border border-slate-200 focus:border-brand-primary focus:bg-white focus:ring-4 focus:ring-brand-primary/10 outline-none transition-all text-brand-dark font-medium placeholder:font-normal">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold text-brand-dark uppercase tracking-wider mb-1.5 ml-1">Child's Age/Months</label>
+                        <input type="text" id="bk-age" required class="w-full px-4 py-3.5 rounded-xl bg-slate-50 border border-slate-200 focus:border-brand-primary focus:bg-white focus:ring-4 focus:ring-brand-primary/10 outline-none transition-all text-brand-dark font-medium placeholder:font-normal" placeholder="e.g. 2 years">
+                    </div>
+                </div>
+                <div class="grid grid-cols-2 gap-5">
+                    <div>
+                        <label class="block text-xs font-bold text-brand-dark uppercase tracking-wider mb-1.5 ml-1">Service</label>
+                        <select id="bk-service" required class="w-full px-4 py-3.5 rounded-xl bg-slate-50 border border-slate-200 focus:border-brand-primary focus:bg-white focus:ring-4 focus:ring-brand-primary/10 outline-none transition-all text-brand-dark font-medium">
+                            <option value="" disabled selected>Select...</option>
+                            <option value="General Checkup">General Checkup</option>
+                            <option value="Vaccination">Vaccination</option>
+                            <option value="Fever/Illness">Fever/Illness</option>
+                            <option value="Neonatal Care">Neonatal Care</option>
+                            <option value="Growth/Nutrition">Growth/Nutrition</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold text-brand-dark uppercase tracking-wider mb-1.5 ml-1">Preferred Date</label>
+                        <input type="date" id="bk-date" required class="w-full px-4 py-3.5 rounded-xl bg-slate-50 border border-slate-200 focus:border-brand-primary focus:bg-white focus:ring-4 focus:ring-brand-primary/10 outline-none transition-all text-brand-dark font-medium">
+                    </div>
+                </div>
+                <div>
+                    <label class="block text-xs font-bold text-brand-dark uppercase tracking-wider mb-1.5 ml-1">Message / Symptoms</label>
+                    <textarea id="bk-msg" rows="3" required class="w-full px-4 py-3.5 rounded-xl bg-slate-50 border border-slate-200 focus:border-brand-primary focus:bg-white focus:ring-4 focus:ring-brand-primary/10 outline-none transition-all text-brand-dark font-medium placeholder:font-normal" placeholder="Briefly describe the reason for visit..."></textarea>
+                </div>
+                <button type="submit" class="w-full bg-[#25D366] text-white font-bold py-4 rounded-xl mt-4 text-lg shadow-[0_4px_20px_rgba(37,211,102,0.3)] flex items-center justify-center gap-3 hover:bg-[#1ebe57] transition-colors focus:ring-4 focus:ring-green-500/20 outline-none">
+                    Send Request via WhatsApp <i class="fa-brands fa-whatsapp text-2xl"></i>
+                </button>
+            </form>
         </div>
     </div>
 
     <script>
         document.getElementById('year').textContent = new Date().getFullYear();
 
-        const btn = document.getElementById('mobile-menu-btn');
-        const menu = document.getElementById('mobile-menu');
-        btn.addEventListener('click', () => { menu.classList.toggle('hidden'); });
-        menu.querySelectorAll('a').forEach(link => { link.addEventListener('click', () => { menu.classList.add('hidden'); }); });
-
+        // Reveal Elements
         const revealElements = document.querySelectorAll('.reveal');
         const revealCallback = (entries, observer) => {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
                     entry.target.classList.add('active');
-                    observer.unobserve(entry.target);
                 }
             });
         };
         const revealObserver = new IntersectionObserver(revealCallback, { threshold: 0.1, rootMargin: "0px 0px -50px 0px" });
-        revealElements.forEach(el => { revealObserver.observe(el); });
+        revealElements.forEach(el => revealObserver.observe(el));
 
+        // Sticky Navbar
         const navbar = document.getElementById('navbar');
         window.addEventListener('scroll', () => {
-            if (window.scrollY > 10) {
-                navbar.classList.add('shadow-sm', 'bg-white/95');
-                navbar.classList.remove('glass');
+            if (window.scrollY > 20) {
+                navbar.classList.add('scrolled');
             } else {
-                navbar.classList.remove('shadow-sm', 'bg-white/95');
-                navbar.classList.add('glass');
+                navbar.classList.remove('scrolled');
             }
         });
 
-        function openBookingModal(e) {
-            if(e) e.preventDefault();
-            const modal = document.getElementById('booking-modal');
-            modal.classList.remove('hidden');
-            modal.classList.add('flex');
-            document.body.style.overflow = 'hidden'; 
+        // Modals
+        function openModal() {
+            document.getElementById('bookingModal').classList.remove('hidden');
+            document.getElementById('bookingModal').classList.add('flex');
+            document.body.style.overflow = 'hidden';
+        }
+        function closeModal() {
+            document.getElementById('bookingModal').classList.add('hidden');
+            document.getElementById('bookingModal').classList.remove('flex');
+            document.body.style.overflow = 'auto';
         }
 
-        function closeBookingModal() {
-            const modal = document.getElementById('booking-modal');
-            modal.classList.add('hidden');
-            modal.classList.remove('flex');
-            document.body.style.overflow = 'auto'; 
+        // Service Modal
+        function openServiceModal(title, desc, icon) {
+            document.getElementById('srv-title').textContent = title;
+            document.getElementById('srv-desc').textContent = desc;
+            document.getElementById('srv-icon').innerHTML = `<i class="fa-solid ${icon}"></i>`;
+            document.getElementById('serviceModal').classList.remove('hidden');
+            document.getElementById('serviceModal').classList.add('flex');
+            document.body.style.overflow = 'hidden';
+        }
+        function closeServiceModal() {
+            document.getElementById('serviceModal').classList.add('hidden');
+            document.getElementById('serviceModal').classList.remove('flex');
+            document.body.style.overflow = 'auto';
         }
 
-        function sendWhatsAppRequest(e) {
+        // Article Modal
+        function openArticleModal(id) {
+            const article = journalDatabase.find(j => j.id === id);
+            if(!article) return;
+            document.getElementById('art-title').textContent = article.title;
+            document.getElementById('art-category').textContent = article.category;
+            document.getElementById('art-date').textContent = article.date;
+            document.getElementById('art-content').innerHTML = article.fullText;
+            document.getElementById('articleModal').classList.remove('hidden');
+            document.getElementById('articleModal').classList.add('flex');
+            document.body.style.overflow = 'hidden';
+        }
+        function closeArticleModal() {
+            document.getElementById('articleModal').classList.add('hidden');
+            document.getElementById('articleModal').classList.remove('flex');
+            document.body.style.overflow = 'auto';
+        }
+
+        // Booking Logic
+        function handleBooking(e) {
             e.preventDefault();
             const parentName = document.getElementById('bk-parent').value.trim();
             const childName = document.getElementById('bk-child').value.trim();
             const age = document.getElementById('bk-age').value.trim();
+            const service = document.getElementById('bk-service').value;
             const date = document.getElementById('bk-date').value;
-            const symptoms = document.getElementById('bk-symptoms').value.trim();
+            const msg = document.getElementById('bk-msg').value.trim();
             
-            let message = `*New Paediatric Appointment Request*
-            
-*Parent Name:* ${parentName}
-*Child Name:* ${childName}
-*Age:* ${age}
-*Preferred Date:* ${date}
-
-*Symptoms/Reason:* ${symptoms}
-
-Please confirm availability.`;
-
-            const encodedMessage = encodeURIComponent(message);
-            const whatsappUrl = `https://wa.me/918050481931?text=${encodedMessage}`;
-            
-            window.open(whatsappUrl, '_blank');
-            closeBookingModal();
+            const whatsappMessage = `*New Paediatric Appointment Request*%0A%0A*Parent Name:* ${parentName}%0A*Child Name:* ${childName}%0A*Child Age:* ${age}%0A*Service:* ${service}%0A*Preferred Date:* ${date}%0A*Message/Symptoms:* ${msg}%0A%0APlease confirm availability.`;
+            window.open(`https://wa.me/918050481931?text=${whatsappMessage}`, '_blank');
+            closeModal();
         }
+
+        // Journal Database
+        const journalDatabase = [
+            { 
+                id: 1, title: "Rubinstein-Taybi syndrome in a late preterm neonate: A case report highlighting clinical diagnosis", category: "Case Report", date: "Jan 2025", icon: "fa-book-medical",
+                excerpt: "Author in above article published in Karnataka Paediatric Journal. DOI 10.25259/KPJ_50_2025.", 
+                fullText: "<p><strong>Abstract:</strong> Rubinstein-Taybi syndrome (RTS) is a rare genetic disorder characterized by short stature, moderate to severe intellectual disability, distinctive facial features, and broad thumbs and first toes. We present a case report highlighting the clinical diagnosis of RTS in a late preterm neonate.</p><br><p><strong>Discussion:</strong> Early clinical recognition in the neonatal period can be challenging but is crucial for timely genetic counseling and multidisciplinary management. The unique presentation in a late preterm infant underlines the variability of phenotypic expression.</p><br><p><strong>Citation:</strong> Published in Karnataka Paediatric Journal. DOI: 10.25259/KPJ_50_2025.</p>"
+            },
+            { 
+                id: 2, title: "Middle cerebral artery hemodynamics assessed by transcranial Sonography in preterm neonates receiving kangaroo mother care", category: "Neonatology", date: "M.D. Dissertation", icon: "fa-brain",
+                excerpt: "Evaluating the neurodevelopmental and hemodynamic benefits of KMC in preterm infants using non-invasive sonography.",
+                fullText: "<p><strong>Abstract:</strong> Kangaroo Mother Care (KMC) is a well-established method of care for preterm infants. This dissertation investigates the effect of KMC on cerebral blood flow, specifically analyzing the middle cerebral artery (MCA) hemodynamics using transcranial sonography.</p><br><p><strong>Methodology:</strong> Preterm neonates were monitored before, during, and after KMC sessions. Doppler indices including Peak Systolic Velocity (PSV), End Diastolic Velocity (EDV), and Resistive Index (RI) were measured.</p><br><p><strong>Conclusion:</strong> Results suggest that KMC promotes stable cerebral hemodynamics and may play a vital role in preventing hypoxic-ischemic brain injury in vulnerable preterm neonates.</p>"
+            },
+            { 
+                id: 3, title: "Optimizing Immunisation Schedules in Rural Pediatrics", category: "Vaccination", date: "Aug 2023", icon: "fa-syringe",
+                excerpt: "A review of strategies to improve vaccine coverage and compliance in developing rural healthcare settings.",
+                fullText: "<p><strong>Overview:</strong> Vaccine-preventable diseases remain a significant cause of childhood morbidity in rural areas. This paper reviews the logistical and educational barriers to full immunisation coverage.</p><br><p><strong>Findings:</strong> Implementing mobile unit tracking, localized community education, and aligning vaccination camps with local market days increased compliance by 40%.</p>"
+            },
+            { 
+                id: 4, title: "Management of Recurrent Wheezing in Early Childhood", category: "Asthma", date: "Jul 2023", icon: "fa-lungs",
+                excerpt: "Differentiating between transient viral wheeze and early-onset atopic asthma in preschool children.",
+                fullText: "<p><strong>Clinical Focus:</strong> Recurrent wheezing in children under 5 is a frequent cause for emergency visits. Identifying the phenotype (episodic viral vs. multiple-trigger) is essential for deciding whether to initiate daily inhaled corticosteroids.</p><br><p><strong>Recommendations:</strong> Judicious use of systemic steroids and reliance on standardized predictive indexes significantly improve long-term respiratory outcomes.</p>"
+            }
+        ];
+
+        const categories = ["All", "Neonatology", "Case Report", "Vaccination", "Asthma"];
+        let currentFilter = "All";
+        let currentSearch = "";
+
+        const gridEl = document.getElementById('journalGrid');
+        const filtersEl = document.getElementById('categoryFilters');
+        const searchInput = document.getElementById('journalSearch');
+        const noResultsEl = document.getElementById('noResults');
+
+        function initJournals() {
+            renderFilters();
+            renderGrid();
+            searchInput.addEventListener('input', (e) => {
+                currentSearch = e.target.value.toLowerCase();
+                renderGrid();
+            });
+        }
+
+        function renderFilters() {
+            filtersEl.innerHTML = categories.map(cat => `
+                <button onclick="setFilter('${cat}')" 
+                        class="whitespace-nowrap px-6 py-2.5 rounded-full font-semibold text-sm transition-all duration-300 border ${
+                            currentFilter === cat 
+                            ? 'bg-brand-primary text-white border-brand-primary shadow-md' 
+                            : 'bg-white text-slate-600 border-slate-200 hover:border-brand-primary hover:text-brand-primary'
+                        }">
+                    ${cat}
+                </button>
+            `).join('');
+        }
+
+        function setFilter(cat) {
+            currentFilter = cat;
+            renderFilters();
+            renderGrid();
+        }
+
+        function renderGrid() {
+            let filtered = journalDatabase.filter(j => currentFilter === "All" || j.category === currentFilter);
+            if (currentSearch) {
+                filtered = filtered.filter(j => 
+                    j.title.toLowerCase().includes(currentSearch) || 
+                    j.category.toLowerCase().includes(currentSearch) ||
+                    j.excerpt.toLowerCase().includes(currentSearch)
+                );
+            }
+
+            if (filtered.length === 0) {
+                gridEl.classList.add('hidden');
+                noResultsEl.classList.remove('hidden');
+            } else {
+                gridEl.classList.remove('hidden');
+                noResultsEl.classList.add('hidden');
+                
+                gridEl.innerHTML = filtered.map(j => `
+                    <div class="bg-white border border-slate-100 rounded-3xl p-6 hover:border-brand-primary/40 hover:shadow-xl transition-all duration-300 flex flex-col h-full group">
+                        <div class="flex justify-between items-start mb-4">
+                            <div class="w-10 h-10 rounded-full bg-brand-light flex items-center justify-center text-brand-primary group-hover:bg-brand-primary group-hover:text-white transition-colors">
+                                <i class="fa-solid ${j.icon}"></i>
+                            </div>
+                            <span class="text-xs font-bold text-slate-400 bg-slate-50 px-3 py-1 rounded-full border border-slate-100">${j.date}</span>
+                        </div>
+                        <span class="text-xs font-bold text-brand-primary uppercase tracking-wider mb-2 block">${j.category}</span>
+                        <h4 class="text-lg font-bold text-brand-dark mb-3 leading-snug group-hover:text-brand-primary transition-colors">${j.title}</h4>
+                        <p class="text-sm text-slate-500 mb-6 flex-grow">${j.excerpt}</p>
+                        <button onclick="openArticleModal(${j.id})" class="text-sm font-bold text-brand-dark hover:text-brand-primary flex items-center gap-1 border-t border-slate-100 pt-4 mt-auto w-full transition-colors focus:outline-none text-left">
+                            Read Abstract <i class="fa-solid fa-arrow-right ml-auto text-brand-primary group-hover:translate-x-1 transition-transform"></i>
+                        </button>
+                    </div>
+                `).join('');
+            }
+        }
+
+        // Initialize Library
+        initJournals();
     </script>
 </body>
 </html>
